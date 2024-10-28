@@ -1,0 +1,91 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F3F3E0; 
+}
+.sidenav{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 300px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    border: 3px solid #133E87;
+
+}
+  
+  /* The navigation menu links */
+.sidenav nav a {
+    padding: 14px 8px 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #608BC1;
+    display: block;
+}
+  /* When you mouse over the navigation links, change their color */
+.sidenav nav a:hover {
+    color: #CBDCEB;
+    background-color: #4d4e53;
+}
+.sidenav h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.sidenav ul{
+    text-decoration: none;
+}
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.sidenav footer p{
+    padding: 14px 8px 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #608BC1;
+    display: block;
+}
+
+.sidenav hr{
+    border: 1px solid #133E87;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+table, td, th{
+    border: 1px solid #133E87;
+    padding: 10px;
+
+}
+
+table, #media{
+    table
+}
+
+.main {
+    margin-left: 300px; /* Same as the width of the sidebar */
+    padding: 5px;
+}
+
+.td-media {
+    width: 100%;
+}
+
+#typo li{
+    padding-left: 20px;
+}

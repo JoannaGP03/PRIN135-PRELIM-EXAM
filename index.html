@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PRIN-135: HTML Cheatsheet</title>
-        <h1>PRIN-135: HTML Cheatsheet</h1>
+        <link rel="stylesheet" href="./style.css">
+        
     </head>
     <body>
-        <nav id="top">
-            <ul>
-                <li><a href="#headers">HTML Headers</a></li>
-                <li><a href="#typo">HTML Typography</a></li>
-                <li><a href="#format">HTML Formatting</a></li>
-                <li><a href="#media">HTML Media</a></li>
-                <li><a href="#table">HTML Table</a></li>
-                <li><a href="#forms">HTML Forms</a></li>
-            </ul>
-        </nav>
+        
+        <div class="sidenav">
+                <h1>PRIN-135: HTML Cheatsheet</h1>
+            <nav>
+                    <hr>
+                    <a href="#headers">HTML Headers</a>
+                    <hr>
+                    <a href="#typo">HTML Typography</a>
+                    <hr>
+                    <a href="#format">HTML Formatting</a>
+                    <hr>
+                    <a href="#media">HTML Media</a>
+                    <hr>
+                    <a href="#table">HTML Table</a>
+                    <hr>
+                    <a href="#forms">HTML Forms</a>
+                    <hr>
+            </nav>
+
+        <footer>
+            <p> © PRIN135 Midterm Exam - <a href="https://github.com/JoannaGP03">JoannaGP03</a></p>
+        </footer>
+        </div>
+
+        <div class="main">
         <section id="headers">
-            <h2>HTML Headers <a href="#top">(top)</a></h2>
+            <h2>HTML Headers</h2>
             <table border="1">
                 <thead>
                     <tr>
@@ -61,7 +79,7 @@
         </section>
 
         <section id="typo">
-            <h2>HTML Typography <a href="#top">(top)</a></h2>
+            <h2>HTML Typography</h2>
             <table border="1">
                 <thead>
                     <tr>
@@ -159,7 +177,7 @@ This content preserves      white spaces <br>and breaklines.
             </table>
         </section>
         <section id="format">
-            <h2>HTML Typography <a href="#top">(top)</a></h2>
+            <h2>HTML Typography</h2>
             <table border="1">
                 <thead>
                     <tr>
@@ -216,7 +234,7 @@ This content preserves      white spaces <br>and breaklines.
             </table>
         </section>
         <section id="media">
-            <h2>HTML Media <a href="#top">(top)</a></h2>
+            <h2>HTML Media</h2>
             <table border="1">
                 <thead>
                     <tr>
@@ -229,12 +247,12 @@ This content preserves      white spaces <br>and breaklines.
                     <tr>
                         <td>Image</td>
                         <td><code>&lt;img src="source.jpg" alt="alternate text"&gt;</code></td>
-                        <td><img src="https://picsum.photos/320/240" alt="alternate text"></td>
+                        <td><img class="td-media" src="https://picsum.photos/320/240" alt="alternate text"></td>
                     </tr>
                     <tr>
                         <td>Video</td>
                         <td><code></code></td>
-                        <td><video width="320" height="240" controls>
+                        <td><video class="td-media" width="320" height="240" controls>
                                 <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -243,7 +261,7 @@ This content preserves      white spaces <br>and breaklines.
                     <tr>
                         <td>Audio</td>
                         <td><code></code></td>
-                        <td><audio controls></audio>
+                        <td><audio class="td-media" controls></audio>
                             <source src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov" type="audio/mpeg"> <br>
                             Your browser does not support the audio element.
                         </audio>
@@ -252,13 +270,14 @@ This content preserves      white spaces <br>and breaklines.
                     <tr>
                         <td>IFrame</td>
                         <td><code><&lt;iframe src="url"&gt;&lt;iframe&gt;</code></td>
-                        <td><iframe src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGRGfdqqK0&#x2F;a4g7Fq1ZCb-A6DrYhHa-rQ&#x2F;view?embed"></iframe></td>
+                        <td><iframe class="td-media" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGRGfdqqK0&#x2F;a4g7Fq1ZCb-A6DrYhHa-rQ&#x2F;view?embed"></iframe></td>
                     </tr>
                 </tbody>
             </table>   
         </section>
+
         <section id="table">
-            <h1>HTML Table <a href="#top">(top)</a></h1>
+            <h2>HTML Table</h2>
             <table border="1">
                 <thead>
                     <tr>
@@ -388,7 +407,7 @@ This content preserves      white spaces <br>and breaklines.
         </section>
         
         <section id="forms">
-            <h1>HTML Form Elements <a href="#top">(top)</a></h1>
+            <h2>HTML Form Elements</h2>
             <table border="1">
                 <tr>
                     <th>Description</th>
@@ -469,5 +488,7 @@ This content preserves      white spaces <br>and breaklines.
             </tbody>
         </table>
     </section>
+
+        </div>   
     </body>
 </html>
